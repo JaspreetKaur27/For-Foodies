@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>For Foodies</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" >
+    </head>
+    <body>
+        <div class="container">
+            <!-- Jumbotron -->
+            <div class="jumbotron">
+                <h1 class="text-center">For Foodies</h1>
+                <h6 class="text-center">Find Somewhere Great to Eat!</h6>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6>Narrow Down Your Search</h6>
+                </div>
+                <div class="col-lg-6">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwXqr0noL7kSbeYFsyPlqdOYbt-tAaLuI&callback=initMap">
+        </script>
+        
+        <script src="js/index.js" ></script>
+    </body>
+</html>
